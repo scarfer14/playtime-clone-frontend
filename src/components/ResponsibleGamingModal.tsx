@@ -19,14 +19,9 @@ const ResponsibleGamingModal = ({ open, onAgree, onExit }: ResponsibleGamingModa
 
           {/* Logos */}
           <div className="flex justify-center items-center gap-8 my-6">
-            <div className="w-16 h-16 bg-gaming-blue rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xs">PAGCOR</span>
-            </div>
+            
             <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center relative">
-              <span className="text-white font-bold text-lg">21</span>
-              <div className="absolute -bottom-1 text-xs text-red-600 font-semibold">
-                YEARS AND ABOVE
-              </div>
+              <span className="text-white font-bold text-lg">21+</span>
             </div>
             <div className="text-gaming-blue font-bold text-sm">
               GAMBLING CAN BE ADDICTIVE<br/>

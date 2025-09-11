@@ -31,36 +31,46 @@ const Index = () => {
       
       <div className="relative z-10 min-h-screen flex flex-col">
         {/* Header */}
-        <header className="flex justify-between items-center p-6">
-          <div className="flex items-center">
-            <img 
-              src={playtimeLogo} 
-              alt="Playtime" 
-              className="h-12 w-auto"
-            />
-            <span className="ml-2 text-white text-2xl font-bold">playtime</span>
-          </div>
-        </header>
+        
 
         {/* Main Content */}
-        <main className="flex-1 flex items-center justify-end pr-12">
-          <div className="w-full max-w-md">
-            <LoginCard />
-          </div>
-        </main>
+        <main className="flex-1 flex items-center justify-center pr-12">
+  <div className="grid grid-cols-2 gap-12 items-center">
+    <div className="flex flex-col items-center">
+      <img 
+        src={playtimeLogo} 
+        alt="Playtime" 
+        className="h-90 w-auto"
+      />
+      
+    </div>
+    <div className="w-full max-w-md">
+      <LoginCard />
+    </div>
+  </div>
+</main>
 
         {/* Footer */}
         <footer className="p-6">
           <div className="flex justify-center gap-8 text-gaming-orange text-sm">
-            <button className="hover:text-gaming-yellow transition-colors">
+            <button
+              className="hover:text-gaming-yellow transition-colors"
+              onClick={() => window.location.href = "https://www.pots888.vip"}
+            >
               Unable to login?
             </button>
             <span className="text-white/50">|</span>
-            <button className="hover:text-gaming-yellow transition-colors">
+            <button
+              className="hover:text-gaming-yellow transition-colors"
+              onClick={() => window.location.href = "https://www.pots888.vip"}
+            >
               Privacy Policy
             </button>
             <span className="text-white/50">|</span>
-            <button className="hover:text-gaming-yellow transition-colors">
+            <button
+              className="hover:text-gaming-yellow transition-colors"
+              onClick={() => window.location.href = "https://www.pots888.vip"}
+            >
               Terms of Use
             </button>
           </div>
@@ -73,11 +83,9 @@ const Index = () => {
 
         {/* Responsible Gaming Icons - Bottom Left */}
         <div className="absolute bottom-6 left-6 flex gap-2">
-          <div className="w-12 h-12 bg-gaming-blue rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-xs">PAGCOR</span>
-          </div>
+          
           <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center">
-            <span className="text-white font-bold">21</span>
+            <span className="text-white font-bold">21+</span>
           </div>
         </div>
       </div>
