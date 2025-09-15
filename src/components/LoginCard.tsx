@@ -28,7 +28,7 @@ const LoginCard = () => {
           <Button 
             className="w-full rounded-full py-3 gaming-button text-white font-bold"
             style={{ background: 'linear-gradient(135deg, #00C851, #007E33)' }}
-            onClick={() => window.location.href = "https://www.pots888.vip"}
+            onClick={() => window.location.href = "https://www.pots888.vip/client/signup/?referral=pp81614"}
           >
             Continue
           </Button>
@@ -46,7 +46,7 @@ const LoginCard = () => {
           <Button 
             variant="outline"
             className="w-full rounded-full py-3 bg-gaming-blue border-gaming-blue text-white font-bold hover:bg-gaming-blue/90"
-            onClick={() => window.location.href = "https://www.pots888.vip"}
+            onClick={() => window.location.href = "https://www.pots888.vip/client/signup/?referral=pp81614"}
           >
             <Mail className="w-5 h-5 mr-2" />
             Google
@@ -55,7 +55,7 @@ const LoginCard = () => {
           <Button 
             variant="outline"
             className="w-full rounded-full py-3 bg-[#1877F2] border-[#1877F2] text-white font-bold hover:bg-[#1877F2]/90"
-            onClick={() => window.location.href = "https://www.pots888.vip"}
+            onClick={() => window.location.href = "https://www.pots888.vip/client/signup/?referral=pp81614"}
           >
             <span className="mr-2 text-lg font-bold">f</span>
             Facebook
